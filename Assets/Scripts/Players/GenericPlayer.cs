@@ -5,6 +5,12 @@ using NETWORK_ENGINE;
 
 public class GenericPlayer : NetworkComponent
 {
+    public int HP;
+    public int stamina;
+    public bool isDead;
+    public bool isMounted;
+
+
     public override void HandleMessage(string flag, string value)
     {
         throw new System.NotImplementedException();
